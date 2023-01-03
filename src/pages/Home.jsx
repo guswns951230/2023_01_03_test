@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <h1>Home page</h1>
       <Link>더보기</Link>
-      <div>
+      <div className="product-section">
         <Product />
       </div>
     </div>
