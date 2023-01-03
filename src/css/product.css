@@ -1,8 +1,14 @@
 .product-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   width: 80%;
   margin: auto;
+}
+
+.product-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 .product-card {
   background-color: lightgray;

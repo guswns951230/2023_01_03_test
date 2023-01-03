@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/product.css";
 const Product = () => {
   const productImages = [
@@ -7,8 +8,9 @@ const Product = () => {
   ];
 
   return (
-    <div>
-      <div className="product-container">
+    <div className="product-container">
+      <Link>더보기</Link>
+      <div className="product-form">
         {productImages.map((product) => (
           <div className="product-card">
             <img

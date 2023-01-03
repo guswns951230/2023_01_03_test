@@ -1,1 +1,9 @@
+.homepage-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 
+.product-section {
+  padding: 4rem 0;
+}
